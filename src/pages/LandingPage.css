@@ -1,0 +1,71 @@
+.landing-container {
+    text-align: center;
+    padding: 2rem;
+    background: linear-gradient(to right, #8e2de2, #4a00e0);
+    color: white;
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .auth-buttons {
+    margin: 2rem 0;
+  }
+  
+  .auth-btn {
+    background-color: #ffffff;
+    color: #4a00e0;
+    margin: 0 1rem;
+    padding: 0.75rem 1.5rem;
+    border-radius: 25px;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  .auth-btn:hover {
+    transform: scale(1.05);
+  }
+  
+  .topics-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2rem 0;
+  }
+  
+  .topic-btn {
+    background-color: #fff;
+    color: #4a00e0;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    border: 2px solid #4a00e0;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.3s ease;
+  }
+  
+  .topic-btn.selected {
+    background-color: #4a00e0;
+    color: #fff;
+  }
+  
+  .browse-btn {
+    margin-top: 2rem;
+    background-color: #ff00cc;
+    color: white;
+    border: none;
+    padding: 0.75rem 2rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+  
+  .browse-btn:hover {
+    transform: scale(1.1);
+  }
+  

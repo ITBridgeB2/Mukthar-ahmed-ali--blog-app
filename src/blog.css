@@ -1,0 +1,19 @@
+.blog-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 16px;
+    padding: 24px;
+    transition: transform 0.2s;
+  }
+  
+  .blog-card:hover {
+    transform: scale(1.02);
+  }
+  
+  .blog-card-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+  }
+  

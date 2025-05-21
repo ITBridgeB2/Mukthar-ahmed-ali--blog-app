@@ -1,0 +1,96 @@
+.blog-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #ffffff;                        /* plain white background */
+    padding: 1.5rem;
+    border-radius: 8px;                         /* slightly smaller radius */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05); /* lighter shadow */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    color: #333;                                /* dark but not pure black */
+    margin: 1rem 0;
+  }
+  
+  .blog-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  }
+  
+  .blog-card__title {
+    margin: 0 0 0.5rem;
+    font-size: 1.3rem;
+    color: #222;                                /* slightly darker for titles */
+  }
+  
+  .blog-card__snippet {
+    flex-grow: 1;
+    margin: 0 0 1rem;
+    color: #555;                                /* medium gray text */
+    line-height: 1.5;
+  }
+  
+  .blog-card__meta {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8rem;
+    color: #888;                                /* light gray meta */
+    margin-bottom: 1rem;
+  }
+  
+  .blog-card__author {
+    font-weight: 600;
+  }
+  
+  .blog-card__date {
+    font-style: italic;
+  }
+  
+  .blog-card__actions {
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  .blog-card__actions .btn {
+    flex: 1;
+    padding: 0.5rem;
+    border: 1px solid #ccc;                    /* light border */
+    background: #f9f9f9;                       /* very light gray */
+    color: #333;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background 0.2s, border-color 0.2s;
+  }
+  
+  .blog-card__actions .btn.view:hover {
+    background: #eef1f3;
+    border-color: #bbb;
+  }
+  
+  .blog-card__actions .btn.edit {
+    border-color: #a3c9a8;                      /* muted green border */
+    color: #4a7a52;
+  }
+  
+  .blog-card__actions .btn.edit:hover {
+    background: #e4f1e9;
+  }
+  
+  .blog-card__actions .btn.delete {
+    border-color: #e0a3a3;                      /* muted red border */
+    color: #8a2e2e;
+  }
+  
+  .blog-card__actions .btn.delete:hover {
+    background: #f6eaea;
+  }
+  
+  .blog-card__actions .btn.comment {
+    border-color: #a3bce0;                      /* muted blue border */
+    color: #385a8c;
+  }
+  
+  .blog-card__actions .btn.comment:hover {
+    background: #e8eef7;
+  }
+  
